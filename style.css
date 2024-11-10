@@ -485,7 +485,8 @@ transition: all 0.5s ease;
   grid-column: -1/2;
   
 }
-
+.card-1 .problem-details,
+.card-4 .problem-details,
 .card-4 .heading,
 .card-4 .solution-details,
 .card-1 .heading,
@@ -497,6 +498,11 @@ transition: all 0.5s ease;
   display:grid;
   grid-template-columns: repeat(2, 1fr);
 gap:1rem;
+}
+
+.events-image img{
+width:400px;
+height:500px;;
 }
 .left{
 width:auto;
